@@ -1,0 +1,36 @@
+{
+  "enable": {
+    "type": "bool",
+    "description": "启用门铃",
+    "default": true
+  },
+  "request_dir": {
+    "type": "string",
+    "description": "请求单目录",
+    "hint": "绝对路径，或相对 AstrBot 数据目录的路径（例如 handoff/request）。",
+    "default": "handoff/request"
+  },
+  "done_dir": {
+    "type": "string",
+    "description": "回执目录",
+    "default": "handoff/done"
+  },
+  "target_umo": {
+    "type": "string",
+    "description": "新单推给谁",
+    "hint": "AstrBot 的 unified_msg_origin，例如 webchat:FriendMessage:webchat!<用户名>!<会话id>。",
+    "default": ""
+  },
+  "reply_umo": {
+    "type": "string",
+    "description": "回执推给谁",
+    "hint": "另一个方向的会话，例如 napcat-bot:FriendMessage:12345678。",
+    "default": ""
+  },
+  "interval_seconds": {
+    "type": "float",
+    "description": "轮询间隔（秒）",
+    "hint": "0.5~2 之间足够；目录扫描很轻。",
+    "default": 1.0
+  }
+}
