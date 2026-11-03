@@ -1,7 +1,7 @@
 name: astrbot_plugin_handoff_watch
 display_name: 门铃
 desc: 把两个目录当成收发台：新请求单落地就通知处理方，回执落地就通知发起方。只负责叫一声，不伪造事件、不强行唤醒。
-version: 0.3.0
+version: 0.3.1
 author: 小幽（和他的大肥鱼
 repo: https://github.com/ylmaochaoyang-cloud/astrbot_plugin_doorbell
 short_desc: 新单落地，有人替你喊一声
